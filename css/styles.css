@@ -555,7 +555,6 @@ img {
    font-size: 26px;
    line-height: 1.2;
    letter-spacing: 0.03em;
-   margin-right: 156px;
 }
 
 .address-list > .item:not(:last-child) {
@@ -598,7 +597,6 @@ img {
 .footer-container {
    display: flex;
    align-items: baseline;
-   justify-content: space-between;
 }
 
 .footer-title {
@@ -652,7 +650,12 @@ img {
    margin-right: 93px;
 }
 
+.footer-adress-wrapper {
+   margin-right: 90px;
+}
+
 .studio-form {
+   margin-left: auto;
    width: 570px;
 }
 
@@ -1008,6 +1011,8 @@ img {
 }
 
 .modal-textarea {
+   display: block;
+
    padding: 12px;
    width: 448px;
    height: 120px;
